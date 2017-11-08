@@ -1,3 +1,5 @@
+use master
+go
 select
 substring(db_name(u.dbid),1,20)  "dbname" ,
 substring(d.name,1,20) "device",
